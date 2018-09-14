@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="27065762851248c990bad9a26d8cbbbe" Name="Diagram1">
+        <EntityTypeShape EntityType="Library7DBModel.Author" Width="1.5" PointX="1.125" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Library7DBModel.Book" Width="1.5" PointX="5.125" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Library7DBModel.Publisher" Width="1.5" PointX="9.5" PointY="3.375" IsExpanded="true" />
+        <AssociationConnector Association="Library7DBModel.FK__Book__IdAuthor__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="Library7DBModel.FK__Book__IdPublishe__3C69FB99" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
